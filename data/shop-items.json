@@ -1,0 +1,6 @@
+[
+  { "id": "s1", "name": "Hák místo ruky", "price": 50, "icon": "🪝" },
+  { "id": "s2", "name": "Harpuna", "price": 100, "icon": "🔱" },
+  { "id": "s3", "name": "Láhev rumu", "price": 150, "icon": "🍾" },
+  { "id": "s4", "name": "Papoušek", "price": 200, "icon": "🦜" }
+]

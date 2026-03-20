@@ -1,0 +1,7 @@
+{
+  "pointsPerCompletedTask": 10,
+  "tutorPassword": "m12345",
+  "appName": "Onboarding Demo",
+  "allowEvidenceUpload": true,
+  "maxTasksPerPage": 50
+}

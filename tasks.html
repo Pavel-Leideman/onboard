@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onboarding – Úkoly nováčka</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <!-- HLAVIČKA -->
+    <header>
+        <h1>📋 Seznam úkolů</h1>
+        <p>Vyber blok nebo rovnou začni plnit úkoly.</p>
+    </header>
+
+    <!-- FILTR BLOKŮ -->
+    <div class="filter-panel">
+        <label for="blockFilter">Blok:</label>
+        <select id="blockFilter">
+            <option value="Vše">Vše</option>
+            <option value="Blok I">Blok I</option>
+            <option value="Blok II">Blok II</option>
+            <option value="Blok III">Blok III</option>
+            <option value="Blok IV">Blok IV</option>
+            <option value="Blok V">Blok V</option>
+        </select>
+    </div>
+
+    <!-- MINCE + ODKAZ DO SHOPU -->
+    <div class="coins-bar">
+        <span id="coinsLabel">Mince: 0</span>
+        <a href="shop.html" class="btn-secondary small">💰 Obchod</a>
+    </div>
+
+    <!-- PROGRESS BAR -->
+    <div class="progress-container">
+        <label>Splněno: <span id="progressPercent">0%</span></label>
+        <div class="progress-bar">
+            <div id="progressValue"></div>
+        </div>
+    </div>
+
+    <!-- SEZNAM ÚKOLŮ -->
+    <div id="taskList" class="task-list">
+        <!-- generuje se dynamicky pomocí JS -->
+    </div>
+
+    <!-- SPODNÍ OVLÁDÁNÍ -->
+    <footer class="footer-nav">
+        <a href="notes.html" class="btn-secondary small">📝 Poznámky</a>
+        <a href="contacts.html" class="btn-secondary small">📞 Kontakty</a>
+        <a href="index.html" class="btn-secondary small">⬅️ Zpět</a>
+    </footer>
+
+</div>
+
+<!-- JS moduly - ve správném pořadí -->
+<script src="js/data-loader.js" defer></script>
+<script src="js/task-utils.js" defer></script>
+<script src="js/dom-utils.js" defer></script>
+<script src="js/progress-utils.js" defer></script>
+
+</body>
+</html>

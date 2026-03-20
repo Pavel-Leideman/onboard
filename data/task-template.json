@@ -1,0 +1,294 @@
+[
+  {
+    "id": "1",
+    "title": "Nástupní den - Nalodění na domovském oddělení",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "2",
+    "title": "Získat pracovní oděvy a skříňku v šatně",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "3",
+    "title": "Průzkum celého Store - včetně zázemí",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "4",
+    "title": "Seznámit se s kolegy na oddělení",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "5",
+    "title": "Získat plán směn",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "6",
+    "title": "Získat Tutora, který mi bude pomáhat na oddělení",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "7",
+    "title": "Prozkoumat oddělení a jeho pravidla - docházka, přestávky v práci",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+
+  {
+    "id": "8",
+    "title": "Prozkoumat fungování celého oddělení",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "9",
+    "title": "Detailně prozkoumat oddělení, jeho zázemí a zboží na oddělení",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "10",
+    "title": "Pracovní postupy a pravidla bezpečnosti práce",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "11",
+    "title": "Metoda FIFO a jeho pravidla",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "12",
+    "title": "Obsluha paletového vozíku",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "13",
+    "title": "Dveře / vrata / rolety – jak je otevřít a obsluhovat",
+    "module": "Blok I",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "14",
+    "title": "Doplňování zboží pod dohledem tutora",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "15",
+    "title": "Seznámení se s interním trenérem",
+    "module": "Blok I",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+
+  {
+    "id": "16",
+    "title": "Detailní prohlídka storu a zázemí - kde najdu důležitá oddělení",
+    "module": "Blok II",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "17",
+    "title": "Zboží na oddělení – základní seznámení",
+    "module": "Blok II",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "18",
+    "title": "Práce se scenerem",
+    "module": "Blok II",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "19",
+    "title": "Značení zboží – cenovky, údaje, správné umístění",
+    "module": "Blok II",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "20",
+    "title": "Pravidla při komunikaci se zákazníkem",
+    "module": "Blok II",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "21",
+    "title": "Fungování GR – systém příjmu zboží",
+    "module": "Blok II",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "22",
+    "title": "Jak zabránit poškození zboží",
+    "module": "Blok II",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "23",
+    "title": "Organizace obchodu a jak společně fungujeme",
+    "module": "Blok II",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+
+  {
+    "id": "24",
+    "title": "Slevy na zboží – MarkDown",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "25",
+    "title": "Pravidla komunikace – navazování kontaktu",
+    "module": "Blok III",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "26",
+    "title": "Záruční doba zboží – pravidla a evidence",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "27",
+    "title": "GAP – co to je a jak funguje",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "28",
+    "title": "Plánogramy – význam, účel a provedení",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "29",
+    "title": "Základní formuláře – transfery, vratky, evidence",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "30",
+    "title": "Zboží – detailní seznámení, produktové karty, e-training",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "31",
+    "title": "Samostatné doplňování zboží",
+    "module": "Blok III",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "32",
+    "title": "Makro – jak společně fungujeme",
+    "module": "Blok III",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+
+  {
+    "id": "33",
+    "title": "eTréninky – MPower",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "34",
+    "title": "Obchodní zásady pro zaměstnance",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "35",
+    "title": "Péče o zákazníka",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "36",
+    "title": "HACCP",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "37",
+    "title": "Ochrana osobních údajů, zásady Metro/Makro",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+  {
+    "id": "38",
+    "title": "Plánogram, Distribuce",
+    "module": "Blok IV",
+    "evidenceRequired": true,
+    "defaultPoints": 10
+  },
+
+  {
+    "id": "39",
+    "title": "Makro v kostce",
+    "module": "Blok V",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "40",
+    "title": "Školení BOZP a PO",
+    "module": "Blok V",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  },
+  {
+    "id": "41",
+    "title": "Školení řidičů VZV (teorie + praxe)",
+    "module": "Blok V",
+    "evidenceRequired": false,
+    "defaultPoints": 10
+  }
+]

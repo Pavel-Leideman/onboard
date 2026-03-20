@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin – Přehled onboarding procesu</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <!-- JS moduly -->
+    <script src.js</script>
+    <script src="js/progress-utils    js/tutor-utils.js</script>
+</head>
+
+<body>
+<div class="container">
+    <header>
+        <h1>⚙️ Admin přehled</h1>
+        <p>Souhrnná statistika onboarding úkolů.</p>
+    </header>
+
+    <section class="admin-stats">
+        <h2>📊 Celkový progress</h2>
+
+        <p>✅ Schváleno: <span id="adminApproved">0</span></p>
+        <p>⌛ Dokončeno: <span id="adminCompleted">0</span></p>
+        <p>❌ Zamítnuto: <span id="adminRejected">0</span></p>
+        <p>🆕 Nové: <span id="adminNew">0</span></p>
+        <p>📸 Úkoly s fotkou: <span id="adminWithPhoto">0</span></p>
+        <p>🗎 Úkoly bez fotky: <span id="adminWithoutPhoto">0</span></p>
+
+        <h3>📈 Celkové schválení: <span id="adminPercent">0%</span></h3>
+
+        <div class="progress-bar">
+            <div id="adminProgressValue"></div>
+        </div>
+    </section>
+
+    <section class="admin-table-section">
+        <h2>📋 Kompletní seznam úkolů</h2>
+
+        <table class="admin-table">
+            <thead>
+            <tr>
+                <th>Název</th>
+                <th>Modul</th>
+                <th>Status</th>
+                <th>Foto</th>
+            </tr>
+            </thead>
+            <tbody id="adminTaskTableBody"></tbody>
+        </table>
+    </section>
+
+    <footer class="footer-nav">
+        <a href="index.html" class="btn-secondary small">⬅️ Zpět</a>
+    </footer>
+</div>
+</body>
+</html>

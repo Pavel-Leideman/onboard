@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detail úkolu</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<div class="container">
+
+    <header class="detail-header">
+        <h1 id="taskTitle">Název úkolu</h1>
+        <p id="taskModule">Modul:</p>
+        <p id="taskStatus">Stav:</p>
+    </header>
+
+    <section class="task-description">
+        <h3>Popis úkolu</h3>
+        <p id="taskDescription">...</p>
+    </section>
+
+    <section id="evidenceInfo" class="evidence-info">
+        <p>📸 Tento úkol vyžaduje nahrání fotografie.</p>
+    </section>
+
+    <section id="uploadSection" class="upload-section">
+        <h3>Nahrát důkaz</h3>
+        <input type="file" id="photoInput" accept="image/*" />
+        <div class="photo-preview">
+            <img id="photoPreview" src="" alt="Nahraná fotka" style="display:none;" />
+        </div>
+    </section>
+
+    <section id="proofSection" class="proof-section">
+        <h3>Důkaz</h3>
+        <img id="proofImage" src="" alt="Důkaz" style="display:none;" />
+    </section>
+
+    <section id="completeSection" class="complete-section">
+        <button id="btnComplete" class="btn-primary">✅ Splnit úkol</button>
+    </section>
+
+    <section id="tutorActions" class="tutor-actions">
+        <button id="btnApprove" class="btn-primary">✅ Schválit</button>
+        <button id="btnReject" class="btn-secondary">❌ Zamítnout</button>
+    </section>
+
+    <footer class="footer-nav">
+        <a href="tasks.html" class="btn-secondary small">⬅️ Zpět na úkoly</a>
+    </footer>
+
+</div>
+
+<!-- JS moduly - ve správném pořadí -->
+<script src="js/data-loader.js" defer></script>
+<script src="js/task-utils.js" defer></script>
+<script src="js/progress-utils.js" defer></script>
+<script src="js/tutor-utils.js" defer></script>
+<script src="js/task-detail-utils.js" defer></script>
+
+</body>
+</html>

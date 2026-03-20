@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poznámky</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>📝 Moje poznámky</h1>
+        <p>Zde si můžeš zapisovat vlastní poznámky k úkolům nebo onboarding procesu.</p>
+    </header>
+
+    <section>
+        <textarea id="notesTextarea" class="notes-textarea" placeholder="Sem napiš své poznámky..."></textarea>
+    </section>
+
+    <section class="notes-actions">
+        <button id="notesSaveButton" class="btn-primary">💾 Uložit poznámku</button>
+    </section>
+
+    <footer class="footer-nav">
+        <a href="tasks.html" class="btn-secondary small">⬅️ Zpět na úkoly</a>
+    </footer>
+
+</div>
+
+<!-- JS moduly - ve správném pořadí -->
+<script src="js/data-loader.js" defer></script>
+<script src="js/task-utils.js" defer></script>
+<script src="js/notes-utils.js" defer></script>
+
+</body>
+</html>

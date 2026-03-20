@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutor – Schvalování úkolů</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>🧭 Tutor – Schvalování úkolů</h1>
+        <p>Úkoly dokončené nováčkem čekající na schválení</p>
+    </header>
+
+    <section class="tutor-stats">
+        <p>✅ Schváleno: <span id="tutorStatsApproved">0</span></p>
+        <p>⌛ Čeká na schválení: <span id="tutorStatsWaiting">0</span></p>
+        <p>❌ Zamítnuto: <span id="tutorStatsRejected">0</span></p>
+        <p>📊 Celkové schválení: <span id="tutorStatsPercent">0%</span></p>
+    </section>
+
+    <section class="tutor-list-container">
+        <div id="tutorTaskList"></div>
+    </section>
+
+    <footer class="footer-nav">
+        <a href="index.html" class="btn-secondary small">⬅️ Zpět</a>
+    </footer>
+
+</div>
+
+<!-- JS moduly - ve správném pořadí -->
+<script src="js/data-loader.js" defer></script>
+<script src="js/task-utils.js" defer></script>
+<script src="js/dom-utils.js" defer></script>
+<script src="js/tutor-utils.js" defer></script>
+
+</body>
+</html>
